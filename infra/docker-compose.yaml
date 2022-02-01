@@ -7,9 +7,10 @@ services:
     env_file:
       - ./.env
   web:
-    build:
-      context: ../api_yamdb
-    restart: always
+    image: yamdb_final/web:latest
+    # build:
+    #   context: ../api_yamdb
+    # restart: always
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
