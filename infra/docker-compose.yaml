@@ -8,9 +8,9 @@ services:
       - ./.env
   web:
     image: harkort/yamdb_final:latest
-    # build:
-    #   context: ../api_yamdb
-    # restart: always
+    build:
+      context: ../api_yamdb
+    restart: always
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
