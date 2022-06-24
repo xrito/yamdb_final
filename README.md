@@ -6,7 +6,7 @@
 
 Документация API: [ссылка](http://51.250.5.101/redoc/)
 
-## Запуск проекта на боевом сервере
+## Запуск проекта на сервере
 Запуск состоит из четырех шагов:
 Комманда git push является триггером workflow проекта.
 При выполнении команды git push запустится набор блоков комманд jobs (см. файл yamdb_workflow.yaml).
@@ -80,3 +80,8 @@ sudo docker volume rm yamdb_final_postgres_data
 [![docker](https://img.shields.io/badge/-Docker-464646?style=flat-square&logo=docker)](https://www.docker.com/)
 [![GitHub%20Actions](https://img.shields.io/badge/-GitHub%20Actions-464646?style=flat-square&logo=GitHub%20actions)](https://github.com/features/actions)
 [![Yandex.Cloud](https://img.shields.io/badge/-Yandex.Cloud-464646?style=flat-square&logo=Yandex.Cloud)](https://cloud.yandex.ru/)
+
+### Автор
+
+[![Telegram](https://img.shields.io/badge/-Telegram-464646?style=flat-square&logo=Telegram)](https://t.me/harkort)
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/xrito)
